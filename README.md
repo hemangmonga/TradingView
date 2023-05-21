@@ -17,7 +17,7 @@ pip install -i https://test.pypi.org/simple/ TradingView
 After installing the package, you also need to install the required dependencies. You can do this by running the following command:
 
 ```shell
-pip install -r https://github.com/hemangmonga/TradingView/blob/master/requirements.txt
+pip install -r https://raw.githubusercontent.com/hemangmonga/TradingView/master/requirements.txt
 ```
 
 Make sure you have Python and pip installed on your system before proceeding with the installation.
