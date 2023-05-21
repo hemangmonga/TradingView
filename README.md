@@ -47,7 +47,7 @@ curr_candle = nifty.curr_candle(timeframe=5)
 Please note that you should replace `"NIFTY"` and `"NSE"` with the appropriate trading symbol and market values you want to fetch data for. Adjust the parameters of the methods according to your requirements.
 
 ## Documentation
-Currently, there is no dedicated documentation available for the TradingView package. However, you can refer to the code and comments within the package to understand the functionality and usage of different methods. Additionally, you can explore the code provided in the `candle.py` and `TradingviewClient.py` files to gain insights into the implementation.
+You can refer to DOCUMENTATION.md file to understand the functionality and usage of different methods. Additionally, you can explore the code provided in the `candle.py` and `TradingviewClient.py` files to gain insights into the implementation.
 
 ## Contributing
 Contributions to the TradingView package are welcome! If you encounter any bugs, have feature requests, or want to contribute code improvements, please follow the guidelines outlined in the CONTRIBUTING.md file of this repository. Your contributions will be greatly appreciated.
