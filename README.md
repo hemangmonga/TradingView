@@ -72,7 +72,7 @@ Certainly! Here are a few common questions that you can include in the `FAQ.md` 
 
 ## Question 2
 
-**Q: What to do if I get this error?**
+**Q: What to do if I get this error <ImportError: cannot import name 'create_connection' from 'websocket'> ?**
 - A: Run the following commands
 ```shell
 pip uninstall websocket
@@ -80,8 +80,6 @@ pip uninstall websocket-client
 pip install websocket==0.2.1
 pip install websocket-client==0.44.0
 ```
-
-
 
 ## Question 3
 **Q: How can I fetch historical data using the TradingView package?**
