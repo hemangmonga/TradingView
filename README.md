@@ -72,8 +72,15 @@ Certainly! Here are a few common questions that you can include in the `FAQ.md` 
 
 ## Question 2
 
-**Q: What markets are supported by the TradingView package?**
-- A: The TradingView package supports various markets. You can specify the market parameter when creating a `TradingviewClient` instance to fetch data for a specific market.
+**Q: What to do if I get this error?**
+- A: Run the following commands
+- ```shell
+pip uninstall websocket
+pip uninstall websocket-client
+pip install websocket==0.2.1
+pip install websocket-client==0.44.0
+
+```
 
 ## Question 3
 **Q: How can I fetch historical data using the TradingView package?**
