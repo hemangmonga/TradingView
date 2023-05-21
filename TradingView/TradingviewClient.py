@@ -2,7 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
-from tvDatafeed import TvDatafeed, Interval
+from main import TvDatafeed, Interval
 import pandas_ta as ta
 
 from Candle import Candle
