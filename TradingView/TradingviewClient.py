@@ -2,10 +2,10 @@ import time
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
-from main import TvDatafeed, Interval
 import pandas_ta as ta
 
-from Candle import Candle
+from TradingView.Candle import Candle
+from TradingView.main import TvDatafeed, Interval
 
 
 def get_prev_candle_timestamp(timeframe):

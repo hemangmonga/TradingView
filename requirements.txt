@@ -1,0 +1,9 @@
+setuptools~=65.5.1
+pandas~=2.0.1
+requests~=2.30.0
+websocket~=0.2.1
+websocket-client~=0.44.0
+numpy~=1.24.3
+pandas-ta==0.3.14b0
+websocket==0.2.1
+websocket-client==0.44.0
