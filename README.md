@@ -74,7 +74,7 @@ Certainly! Here are a few common questions that you can include in the `FAQ.md` 
 
 **Q: What to do if I get this error?**
 - A: Run the following commands
-- ```shell
+```shell
 pip uninstall websocket
 ```
 pip uninstall websocket-client
