@@ -79,7 +79,6 @@ pip uninstall websocket
 pip uninstall websocket-client
 pip install websocket==0.2.1
 pip install websocket-client==0.44.0
-
 ```
 
 ## Question 3
