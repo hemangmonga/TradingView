@@ -60,3 +60,31 @@ If you have any questions, suggestions, or need further assistance, you can reac
 
 ## Acknowledgments
 - [TradingView](https://www.tradingview.com/): The package leverages the TradingView platform to fetch live and historical data.
+
+Certainly! Here are a few common questions that you can include in the `FAQ.md` file:
+
+# Frequently Asked Questions
+
+## Question 1
+
+**Q: What markets are supported by the TradingView package?**
+- A: The TradingView package supports various markets. You can specify the market parameter when creating a `TradingviewClient` instance to fetch data for a specific market.
+
+## Question 2
+
+**Q: What markets are supported by the TradingView package?**
+- A: The TradingView package supports various markets. You can specify the market parameter when creating a `TradingviewClient` instance to fetch data for a specific market.
+
+## Question 3
+**Q: How can I fetch historical data using the TradingView package?**
+- A: To fetch historical candlestick data, you can use the `get_data` method of the `TradingviewClient` class. You need to specify the desired timeframe, number of bars, and other parameters to retrieve the data.
+
+## Question 4
+**Q: How can I get the last traded price for a symbol?**
+- A: You can use the `LTP` method of the `TradingviewClient` class, specifying the timeframe. This method returns the last traded price as a floating-point number.
+
+## Question 5
+**Q: How can I access information about the previous and current candle?**
+- A: The `prev_candle` method of the `TradingviewClient` class provides information about the previous candle, including open, high, low, close, EMA values, alert flags, and supertrend values. Similarly, the `curr_candle` method gives information about the current candle.
+
+
