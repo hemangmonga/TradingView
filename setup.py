@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='TradingView_hemangmonga',
+    name='TradingView',
     version='0.0.1',
     description='Package to fetch live data from trading view',
     author='Hemang Monga',
